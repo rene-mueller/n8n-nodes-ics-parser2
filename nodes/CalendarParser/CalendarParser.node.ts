@@ -10,15 +10,15 @@ import iconv from 'iconv-lite';
 import {CalendarComponent, VEvent} from '../../types/ical';
 
 // noinspection JSUnusedGlobalSymbols
-export class ICalendarParser implements INodeType {
+export class CalendarParser implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'iCalendar Parser',
-		name: 'ICalendarParser',
+		displayName: 'Calendar Parser',
+		name: 'CalendarParser',
 		group: ['transform'],
 		version: 1,
-		description: 'Parse iCalendar File',
+		description: 'Parse iCal File',
 		defaults: {
-			name: 'iCalendar Parser',
+			name: 'iCal Parser',
 		},
 		inputs: ['main'],
 		outputs: ['main'],
