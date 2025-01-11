@@ -6,10 +6,9 @@
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "https://www.clicksports.de",
   "author": {
     "name": "René Müller",
-    "email": "rene.mueller@clicksports.de"
+    "email": "48084558+rene-mueller@users.noreply.github.com"
   },
   "repository": {
     "type": "git",
